@@ -1,0 +1,5 @@
+[
+    { "keys": ["f12"], "command": "reindent", "args": {"single_line": false} },
+    { "keys": ["ctrl+shift+b"], "command": "build", "args": {"variant": "Run"} },
+    { "keys": ["ctrl+shift+r"], "command": "pep8_autoformat" }
+]

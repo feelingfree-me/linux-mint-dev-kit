@@ -1,0 +1,15 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"FileHeader",
+		"Git",
+		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"Package Control",
+		"Python PEP8 Autoformat",
+		"SublimeAStyleFormatter",
+		"Swift",
+		"TortoiseSVN"
+	]
+}

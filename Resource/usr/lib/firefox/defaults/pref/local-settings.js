@@ -1,0 +1,11 @@
+lockPref("toolkit.telemetry.prompted", true);
+lockPref("browser.rights.override", true);
+lockPref("browser.startup.homepage_override.mstone", "ignore");
+lockPref("browser.startup.page", 1);
+lockPref("browser.defaultbrowser.notificationbar", false);
+lockPref("browser.shell.checkDefaultBrowser", false);
+lockPref("browser.search.defaultenginename", "Google");
+lockPref("browser.search.defaultenginename.US", "Google");
+lockPref("browser.newtabpage.introShown", true);
+user_pref("font.name.monospace.x-western", "Menlo");
+user_pref("font.size.fixed.x-western", 12);

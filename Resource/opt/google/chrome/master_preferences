@@ -1,0 +1,47 @@
+{
+    "browser" : {
+        "check_default_browser": true,
+        "show_home_button" : false
+    },
+    "bookmark_bar" : {
+        "show_on_all_tabs" : true
+    },
+    "distribution" : {
+        "create_all_shortcuts" : true,
+        "do_not_launch_chrome" : true,
+        "import_history" : false,
+        "import_search_engine" : true,
+        "make_chrome_default" : false,
+        "show_welcome_page" : true,
+        "skip_first_run_ui" : true,
+        "import_bookmarks": false
+    },
+    "download": {
+        "prompt_for_download": true
+    },
+    "first_run_tabs" : [
+        "new_tab_page"
+    ],
+    "homepage_is_newtabpage" : false,
+    "translate_blocked_languages": ["en", "th"],
+    "webkit": {
+        "webprefs": {
+            "fonts": {
+                "fixed": {
+                    "Zyyy": "Menlo"
+                },
+                "sansserif": {
+                    "Zyyy": "Noto Sans"
+                },
+                "serif": {
+                    "Zyyy": "Noto Serif"
+                },
+                "standard": {
+                    "Zyyy": "Noto Serif"
+                }
+            },
+            "minimum_font_size": 12,
+            "minimum_logical_font_size": 12
+        }
+    }
+}

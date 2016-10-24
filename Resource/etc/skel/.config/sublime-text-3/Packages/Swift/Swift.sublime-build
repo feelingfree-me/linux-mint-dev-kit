@@ -1,0 +1,13 @@
+{
+	"shell_cmd": "swift \"$file\"",
+	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+	"selector": "source.swift",
+
+	"variants":
+	[
+		{
+			"name": "Run",
+			"shell_cmd": "x-terminal-emulator -e /bin/bash -c \"swift ${file};read line\"",
+		}
+	]
+}

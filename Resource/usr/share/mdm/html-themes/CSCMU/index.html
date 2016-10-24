@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-select.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div id="errors"></div>
+
+    <div id="login">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-user fixed-width"></i></span>
+            <input id="username" name="username" tabindex="1" class="form-control" placeholder="Username or E-mail" autofocus="true" disabled="disabled" />
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon">
+                <i class="fa fa-key fixed-width"></i>
+            </span>
+            <input id="password" name="password" type="password" tabindex="2" class="form-control" placeholder="Password" disabled="disabled" />
+        </div>
+        <button type="submit" tabindex="3" name="submit" class="btn btn-primary btn-block" disabled="disabled">
+            <i class="fa fa-sign-in"></i> Login
+        </button>
+	</div>
+
+    <div class="actions bottom-left">
+        <select id="sessions-list" name="session" tabindex="4" class="selectpicker show-tick" data-header="Session" data-style="btn-success session-btn" data-width="40px">
+        </select>
+    </div>
+
+	<div class="actions bottom-right">
+		<a href="#" id="suspend" data-target="FORCE-SUSPEND###" tabindex="5" data-toggle="tooltip" data-placement="top" data-title="$suspend" class="btn btn-info">
+			<i class="fa fa-moon-o"></i>
+		</a>
+		<a href="#" id="restart" data-target="FORCE-RESTART###" tabindex="6" data-toggle="tooltip" data-placement="top" data-title="$restart" class="btn btn-warning">
+			<i class="fa fa-repeat"></i>
+		</a>
+		<a href="#" id="shutdown" data-target="FORCE-SHUTDOWN###" tabindex="7" data-toggle="tooltip" data-placement="top" data-title="$shutdown" class="btn btn-danger">
+			<i class="fa fa-power-off"></i>
+		</a>
+	</div>
+
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+	<script src="js/mdm.js"></script>
+</body>
+</html>

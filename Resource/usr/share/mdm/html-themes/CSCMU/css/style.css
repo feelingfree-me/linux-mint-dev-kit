@@ -1,0 +1,125 @@
+html,
+body {
+
+}
+
+body {
+    background-color: #354b60;
+    font-family: "Ubuntu";
+    font-size: 14px;
+
+    background: url("../img/background.jpeg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#errors {
+    position: relative;
+    width: 600px;
+    height: 175px;
+    margin: 0 auto;
+    padding: 40px;
+    z-index: 2;
+}
+
+.alert {
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 0;
+}
+
+.alert-danger {
+    border: 0;
+    background-color: #c0392b;
+    color: #ecf0f1;
+}
+
+.close {
+    font-size: 18px;
+}
+
+#login {
+    position: relative;
+    margin: 0 auto;
+    width: 300px;
+}
+
+#login .header {
+    margin-bottom: 10px;
+}
+
+#login h1 {
+    font-size: 28px;
+    background-color: #ecf0f1;
+    padding: 10px;
+}
+
+#login .header span {
+    font-size: 15px;
+    background-color: #112e3a;
+    color: #ecf0f1;
+    padding: 5px 10px;
+    text-align: right;
+    margin-top: -10px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group-addon,
+.form-control,
+.btn {
+    border-radius: 0;
+}
+
+.actions {
+    position: absolute;
+    padding: 20px;
+}
+
+.bottom-left {
+    left: 0;
+    bottom: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+.actions a {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.session-btn {
+    background: none;
+    color: #ecf0f1;
+    font-weight: 700;
+    border: 0;
+    box-shadow: 0;
+}
+
+.session-btn span {
+    text-align: center;
+}
+
+.dropdown-menu {
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0;
+}
+
+.session-btn .caret {
+    display: none;
+}
+
+.fixed-width{
+    width: 15px;
+}
+

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<toolbars version="1.0">
+  <toolbar name="DefaultToolBar" hidden="false" editable="true">
+    <toolitem name="FileOpenRecent"/>
+    <toolitem name="GoPreviousPage"/>
+    <toolitem name="GoNextPage"/>
+    <separator/>
+    <toolitem name="PageSelector"/>
+    <separator/>
+    <toolitem name="ViewPageWidth"/>
+    <toolitem name="ViewBestFit"/>
+    <separator/>
+    <toolitem name="ViewContinuous"/>
+    <toolitem name="ViewDual"/>
+    <separator/>
+    <toolitem name="ViewZoomIn"/>
+    <toolitem name="ViewZoomOut"/>
+    <toolitem name="ViewZoom"/>
+    <toolitem name="ViewFullscreen"/>
+    <separator/>
+    <toolitem name="EditRotateLeft"/>
+    <toolitem name="EditRotateRight"/>
+    <separator/>
+    <toolitem name="ViewSidebar"/>
+    <toolitem name="EditFind"/>
+  </toolbar>
+</toolbars>

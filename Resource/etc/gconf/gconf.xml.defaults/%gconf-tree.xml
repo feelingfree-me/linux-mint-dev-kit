@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="apps">
+		<dir name="gedit-2">
+			<dir name="preferences">
+				<dir name="ui">
+					<dir name="statusbar">
+						<entry name="statusbar_visible" mtime="1439980051" type="bool" value="true"/>
+					</dir>
+				</dir>
+				<dir name="editor">
+					<dir name="tabs">
+						<entry name="tabs_size" mtime="1439980014" type="int" value="4"/>
+						<entry name="insert_spaces" mtime="1439980013" type="bool" value="true"/>
+					</dir>
+					<dir name="line_numbers">
+						<entry name="display_line_numbers" mtime="1439979991" type="bool" value="true"/>
+					</dir>
+					<dir name="font">
+						<entry name="editor_font" mtime="1439979986" type="string">
+							<stringvalue>Menlo 12</stringvalue>
+						</entry>
+						<entry name="use_default_font" mtime="1439979984" type="bool" value="false"/>
+					</dir>
+					<dir name="current_line">
+						<entry name="highlight_current_line" mtime="1439979971" type="bool" value="true"/>
+					</dir>
+					<dir name="bracket_matching">
+						<entry name="bracket_matching" mtime="1439979910" type="bool" value="true"/>
+					</dir>
+				</dir>
+			</dir>
+		</dir>
+		<dir name="gconf-editor">
+			<entry name="recents" mtime="1439979525" type="list" ltype="string">
+				<li type="string">
+					<stringvalue>/apps/gnome-terminal/profiles/Default/use_theme_colors</stringvalue>
+				</li>
+				<li type="string">
+					<stringvalue>/apps/gnome-terminal/profiles/Default/silent_bell</stringvalue>
+				</li>
+				<li type="string">
+					<stringvalue>/apps/gnome-terminal/profiles/Default/scroll_on_output</stringvalue>
+				</li>
+			</entry>
+		</dir>
+		<dir name="gnome-terminal">
+			<dir name="profiles">
+				<dir name="Default">
+					<entry name="background_darkness" mtime="1439978472" type="float" value="0.95000000000000000"/>
+					<entry name="use_theme_colors" mtime="1439979527" type="bool" value="true"/>
+					<entry name="bold_color" mtime="1439978456" type="string">
+						<stringvalue>#F8F8F8F8F2F2</stringvalue>
+					</entry>
+					<entry name="default_show_menubar" mtime="1439978452" type="bool" value="true"/>
+					<entry name="silent_bell" mtime="1439979524" type="bool" value="false"/>
+					<entry name="background_color" mtime="1439978437" type="string">
+						<stringvalue>#262626262626</stringvalue>
+					</entry>
+					<entry name="foreground_color" mtime="1439978432" type="string">
+						<stringvalue>#F8F8F8F8F2F2</stringvalue>
+					</entry>
+					<entry name="background_type" mtime="1439978421" type="string">
+						<stringvalue>transparent</stringvalue>
+					</entry>
+					<entry name="use_system_font" mtime="1439978413" type="bool" value="false"/>
+					<entry name="font" mtime="1439978406" type="string">
+						<stringvalue>Menlo 12</stringvalue>
+					</entry>
+					<entry name="bold_color_same_as_fg" mtime="1439978403" type="bool" value="false"/>
+					<entry name="scrollback_lines" mtime="1439978393" type="int" value="1024"/>
+					<entry name="scroll_on_output" mtime="1439979515" type="bool" value="true"/>
+					<entry name="palette" mtime="1439978303" type="string">
+						<stringvalue>#1B1B1D1D1E1E:#F9F926267272:#8282B4B41414:#FDFD97971F1F:#5656C2C2D6D6:#8C8C5454FEFE:#464654545757:#CCCCCCCCC6C6:#505053535454:#FFFF59599595:#B6B6E3E35454:#FEFEEDED6C6C:#8C8CEDEDFFFF:#9E9E6F6FFEFE:#89899C9CA1A1:#000000000000</stringvalue>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=ImWheel
+Comment=
+Exec=/usr/bin/imwheel
+OnlyShowIn=XFCE;
+StartupNotify=false
+Terminal=false
+Hidden=false
